@@ -6,8 +6,8 @@ namespace TodoList.API.Models
     public class TodoItemDto
     {
         [Required]
-        [MinLength(3)]
-        [MaxLength(50)]
+        [MinLength(4)]
+        [MaxLength(40)]
         public string Title { get; set; }
 
         [MinLength(15)]
